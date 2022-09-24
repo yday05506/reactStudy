@@ -6,6 +6,16 @@ class Student extends React.Component {
         this.state = {
             score : 0
         }
+        this.plusScore = this.plusScore.bind(this)
+        this.minusScore = this.minusScore.bind(this)
+    }
+
+    plusScore() {
+        this.setState({score : this.state.score + 1})
+    }
+
+    minusScore() {
+        this.setState({score : this.state.score - 1})
     }
 
     render () {
@@ -15,8 +25,8 @@ class Student extends React.Component {
             <br/>
             점수 : {this.state.score}
             {' '}
-            <button type = "button">+</button>
-            <button type = "button">-</button>
+            <button type = "button" onClick={this.minusScore}>-</button>
+            <button type = "button" onClick={this.plusScore}>+</button>
         </div>
         )
     }
