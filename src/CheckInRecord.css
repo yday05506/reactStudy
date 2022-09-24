@@ -1,0 +1,24 @@
+.check-in-record {
+    /* margin : 0px, 0px, 15px, 0px; */
+    margin-bottom: 15px;
+    padding-left: 16px;
+}
+
+.name-and-score {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 8px;
+    width: 120px;
+}
+
+.comment {
+    display: inline-block;
+}
+
+.score {
+    margin-right: 8px;
+    background-color: cadetblue;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 14px;
+}

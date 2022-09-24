@@ -1,0 +1,20 @@
+#title1.title {
+  /* 우선 순위 110 */
+  color : skyblue;
+}
+
+#title1 { 
+  /* id */
+  /* 우선 순위 100 */
+  color : rosybrown;
+}
+
+.title {
+  /* className */
+  /* 우선 순위 10 */
+  color : royalblue;
+}
+
+h1 {
+  color : olive;
+}
