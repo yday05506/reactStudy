@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Student from './Student';
 import CheckInRecord from './CheckInRecord';
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
       <div>
       <CheckInRecord name = "제나" score = {4} comment = "오늘 애플스토어를 감"></CheckInRecord>
       <CheckInRecord name = "엘리샤" score = {2} comment = "시험기간이어서 힘듦"/>
+      <h1>학생 목록</h1>
+      <Student name = "양다연"/>
+      <Student name = "최자윤"/>
       </div>
     </div>  // <div></div> == <div />
   );
