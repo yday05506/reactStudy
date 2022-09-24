@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import MyComponent from './MyComponent';
 
 function App() {
   const name = "Zena";
@@ -9,6 +10,8 @@ function App() {
     <div>
       <h1>Hello, World!</h1>
       {element} 
+      {element2}
+      <MyComponent name = "양다연"></MyComponent>
     </div>
   );
 }
